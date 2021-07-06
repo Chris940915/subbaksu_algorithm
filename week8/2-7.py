@@ -18,7 +18,7 @@ class Solution:
             for ele in level:
                 if ele.left:
                     queue.append(ele.left)
-                if ele.right
+                if ele.right:
                     queue.append(ele.right)
             level = queue
         return depth
